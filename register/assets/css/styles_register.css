@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../imgs/background.png");
+    background-position: 85px -183px;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: cover;
+}
+
+.section_header {
+    display: flex;
+}
+
+.section_header .logo {
+    width: 193px;
+    height: 71px;
+    margin: 28px auto;
+}
+
+.section_body {
+    display: flex;
+    position: relative;
+}
+
+#register {
+    margin: auto;
+    width: 50%;
+    line-height: 27px;
+}
+
+#register>h2 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+#register .register_list {
+    overflow: hidden;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+#register .register_item {
+    background-color: #fff;
+    float: left;
+    width: 48.5%;
+    margin: 10px 5px;
+    border-radius: 3px;
+}
+
+#register .register_heading {
+    font-size: 12px;
+    width: 100%;
+}
+
+#register .register_content {
+    font-size: 16px;
+    width: 100%;
+    border: none;
+}
+
+#register .description {
+    background-color: #fff;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+#register .register_button>button {
+    width: 49%;
+    height: 45px;
+    margin-top: 35px;
+}
+
+#register .register_button #back {
+    background-color: #000;
+    color: #fff;
+    border-width: 1px;
+    border-color: #fff;
+    border-radius: 3px;
+}
+
+#register .register_button #next {
+    background-color: #2F9A4C;
+    color: #fff;
+    border-width: 0px;
+    border-radius: 3px;
+}
+
+#capcha_logo {
+    position: absolute;
+    right: 39.6px;
+    display: grid;
+}
+
+#register #capcha_logo #title {
+    text-align: center;
+}
+
+.section_footer {
+    margin-top: 34px;
+    margin-bottom: 54px;
+    color: #fff;
+    display: flex;
+}
+
+.section_footer p {
+    /* left: 50%;
+    transform: translate(-50%, 50%); */
+    margin: auto;
+}
