@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../imgs/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section_header {
+    display: flex;
+}
+
+.heading .logo_img {
+    margin: 28px auto;
+}
+
+.heading .logo_img .logo {
+    width: 193px;
+    height: 71px;
+}
+
+.section_body {
+    display: plex;
+}
+
+#login>h2 {
+    color: #fff;
+    margin-left: 10%;
+    margin-bottom: 39px;
+    padding-top: 55px;
+    font-size: 36px;
+    line-height: 60px;
+}
+
+#login {
+    margin: auto;
+    width: 33.3333%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#login .login_list {
+    display: block;
+}
+
+#login .login_item {
+    margin: 13px auto;
+    background-color: #fff;
+    color: #000000;
+    width: 80%;
+    height: 60px;
+    border-color: #707070;
+    border-radius: 3px;
+}
+
+
+/* #login .item_heading {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 10px;
+} */
+
+#login .item_input {
+    border: none;
+    width: 80%;
+    line-height: 20px;
+    font-size: 16px;
+    margin-left: 21px;
+    margin-top: 21px;
+    margin-bottom: 23px;
+}
+
+#login .login_button {
+    margin-left: 10%;
+    width: 80%;
+    height: 45px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    line-height: 27px;
+    font-size: 16px;
+}
+
+#login #forgot_pw {
+    float: right;
+    margin-right: 10%;
+    margin-top: 14px;
+    margin-bottom: 18.5px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+#login #lg {
+    background-color: #2F9A4C;
+}
+
+#login #tw_login {
+    background-color: #3CA6CC;
+    margin-bottom: 11px;
+}
+
+#login #fb_login {
+    background-color: #264F88;
+    margin-bottom: 36px;
+}
+
+#login .more {
+    padding-bottom: 34px;
+    margin-left: 30%;
+    width: 165px;
+}
+
+#reg::before {
+    content: "New to Eko? ";
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    color: #A8A8A8;
+}
+
+.section_footer {
+    display: flex;
+}
+
+.section_footer .footer_content {
+    margin: auto;
+    margin-top: 52px;
+    margin-bottom: 49px;
+    color: #A8A8A8;
+    font-size: 16px;
+    line-height: 20px;
+}
