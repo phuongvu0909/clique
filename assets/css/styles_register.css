@@ -18,8 +18,6 @@ html {
 }
 
 .section_header .logo {
-    width: 193px;
-    height: 71px;
     margin: 28px auto;
 }
 
@@ -30,8 +28,10 @@ html {
 
 #register {
     margin: auto;
-    width: 50%;
+    padding: 20px 70px;
+    width: 60%;
     line-height: 27px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #register>h2 {

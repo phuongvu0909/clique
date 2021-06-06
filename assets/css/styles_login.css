@@ -15,13 +15,8 @@ html {
     display: flex;
 }
 
-.heading .logo_img {
-    margin: 28px auto;
-}
-
-.heading .logo_img .logo {
-    width: 193px;
-    height: 71px;
+.section_header .logo {
+    margin: 43px auto 83px auto;
 }
 
 .section_body {
@@ -57,20 +52,13 @@ html {
     border-radius: 3px;
 }
 
-
-/* #login .item_heading {
-    font-size: 12px;
-    line-height: 20px;
-    margin-left: 10px;
-} */
-
 #login .item_input {
     border: none;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     line-height: 20px;
     font-size: 16px;
-    margin-left: 21px;
-    margin-top: 21px;
+    padding-left: 21px;
     margin-bottom: 23px;
 }
 
@@ -115,11 +103,13 @@ html {
     width: 165px;
 }
 
+.login .logo_button {
+    flex: 1;
+}
+
 #reg::before {
     content: "New to Eko? ";
     font-size: 16px;
-    text-decoration: underline;
-    text-decoration-color: #000000;
     color: #A8A8A8;
 }
 
