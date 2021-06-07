@@ -1,0 +1,110 @@
+@media only screen and (max-width: 480px) {
+    .section_header .heading {
+        display: block;
+    }
+    .heading .search,
+    .heading .logo_img,
+    .heading .funtion_header {
+        width: 100%;
+    }
+    .heading .search {
+        display: none;
+    }
+    .heading .logo_img {
+        display: flex;
+    }
+    .logo_img>img {
+        margin: auto;
+    }
+    .home_nav>ul {
+        display: block;
+        margin-left: 0px;
+    }
+    .home_nav ul>li {
+        width: 50%;
+    }
+    .home_nav li>a {
+        padding: 10px;
+    }
+    .section_body {
+        column-count: 1;
+    }
+    .section_body .body_item {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .section_header .heading {
+        display: block;
+    }
+    .heading .search,
+    .heading .logo_img,
+    .heading .funtion_header {
+        width: 100%;
+    }
+    .heading .search {
+        display: none;
+    }
+    .heading .logo_img {
+        display: flex;
+    }
+    .logo_img>img {
+        margin: auto;
+    }
+    .home_nav>ul {
+        display: block;
+        margin-left: 0px;
+    }
+    .home_nav ul>li {
+        width: 20%;
+    }
+    .home_nav li>a {
+        padding: 10px;
+    }
+    .section_body {
+        column-count: 2;
+        margin-top: 10px;
+    }
+    .section_body .body_item {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .funtion_header {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 15px;
+    }
+    .home_nav>ul {
+        display: block;
+        margin-left: 10%;
+    }
+    .home_nav ul>li {
+        width: 10%;
+    }
+    .home_nav li>a {
+        padding: 10px;
+    }
+    .section_body {
+        column-count: 3;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+    .home_nav>ul {
+        display: block;
+    }
+    .home_nav ul>li {
+        width: 10%;
+    }
+    .home_nav li>a {
+        padding: 10px;
+    }
+    .section_body {
+        column-count: 3;
+        margin-top: 20px;
+    }
+}
