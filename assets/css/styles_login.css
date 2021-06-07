@@ -64,6 +64,7 @@ html {
 
 #login .login_button {
     margin-left: 10%;
+    margin-bottom: 11px;
     width: 80%;
     height: 45px;
     color: #fff;
@@ -89,7 +90,6 @@ html {
 
 #login #tw_login {
     background-color: #3CA6CC;
-    margin-bottom: 11px;
 }
 
 #login #fb_login {
