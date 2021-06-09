@@ -1,4 +1,10 @@
     // Scss mixins
+    @mixin bg_style($bg) {
+        background: $bg;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
     @mixin style($bg) {
         background: $bg;
         background-repeat: no-repeat;

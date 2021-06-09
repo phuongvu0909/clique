@@ -1,0 +1,97 @@
+#login_page {
+    @include bg_style($background);
+    font-family: $font_familly;
+    height: 100vh;
+}
+
+.login_header {
+    display: flex;
+    .logo {
+        margin: 43px auto 83px auto;
+    }
+}
+
+.login_body {
+    display: flex;
+}
+
+#login {
+    margin: auto;
+    width: 33.3333%;
+    background-color: $corlor_rgba;
+}
+
+#login {
+    h2 {
+        @include font(36px, auto, 60px);
+        margin-left: 10%;
+        margin-bottom: 39px;
+        padding-top: 55px;
+        color: $color_white0;
+    }
+    .login_list {
+        display: block;
+    }
+    .login_item {
+        @include border_style(none, 3px, $color_gray44);
+        margin: 13px auto;
+        background-color: $color_white0;
+        color: $color_black;
+        width: 80%;
+        height: 60px;
+    }
+    .item_input {
+        @include font(16px, none, 20px);
+        border: none;
+        width: 100%;
+        height: auto;
+        padding-left: 21px;
+        margin-bottom: 23px;
+    }
+    .login_button {
+        @include border_style(none, 3px, none);
+        @include font(16px, none, 27px);
+        margin: auto auto 11px 10%;
+        width: 80%;
+        height: 45px;
+        color: $color_white0;
+    }
+    #forgot_pw {
+        @include font(12px, none, 20px);
+        float: right;
+        margin: 14px 10% 18.5px auto;
+        color: $color_white0;
+    }
+    #lg {
+        background-color: $color_lightgreen;
+    }
+    #tw_login {
+        background-color: $color_lightblue;
+    }
+    #fb_login {
+        background-color: $color_mediumblue;
+    }
+    .more {
+        padding-bottom: 34px;
+        margin-left: 30%;
+        width: 165px;
+    }
+    .logo_button {
+        flex: 1;
+    }
+}
+
+#reg::before {
+    content: "New to Eko? ";
+    font-size: 16px;
+    color: $color_whitegray2;
+}
+
+.login_footer {
+    display: flex;
+    .footer_content {
+        @include font(16px, none, 20px);
+        margin: 52px auto 49px auto;
+        color: $color_whitegray2;
+    }
+}
