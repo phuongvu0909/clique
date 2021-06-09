@@ -1,0 +1,180 @@
+#home_page {
+    font-family: $primary-font;
+}
+
+.section_header {
+    .heading {
+        display: flex;
+        justify-content: space-between;
+    }
+    .search_box {
+        @include padVsMg(auto auto auto 20px, 25px auto auto auto);
+        @include border_style(solid, 23px, $color_while0);
+        width: 316px;
+        height: 45px;
+        background-color: $color_while1;
+    }
+    .search_input {
+        @include border_style(none, none, $color_while0);
+        width: 60%;
+        right: 10%;
+        height: 100%;
+        background-color: $color_while1;
+        outline: none;
+        text-align: center;
+    }
+    .icon_search {
+        color: $color_gray1;
+        font-size: 20px;
+    }
+}
+
+.search {
+    .search_button {
+        position: absolute;
+        width: 35px;
+        height: auto;
+        top: 30px;
+        left: 30px;
+        border: none;
+        background-color: $color_while1;
+    }
+}
+
+.funtion_header {
+    display: flex;
+    justify-content: space-evenly;
+    .f_item {
+        margin: 35px 30px auto 30px;
+        font-size: 18px;
+        color: $color_gray1;
+    }
+    .img #mask_img {
+        width: 50px;
+        height: auto;
+        margin-top: 18px;
+    }
+    .f_more {
+        font-size: 12px;
+        color: $color_gray1;
+    }
+}
+
+.home_nav {
+    @include border_style(solid, none, $color_while2);
+    background-color: $color_while3;
+    border-width: 1px;
+    ul {
+        overflow: hidden;
+        margin-left: 10%;
+    }
+    li {
+        list-style-type: none;
+        float: left;
+    }
+    a {
+        @include font(16px, 600, 27px);
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 25px 35px;
+        color: $color-grey;
+    }
+}
+
+.section_body {
+    column-count: 5;
+    column-gap: 30px;
+    margin: 25px 25px auto 30px;
+    .body_item {
+        @include border_style(solid, 10px, $color_while4);
+        background-color: $color_while3;
+        box-shadow: 0 3px 6px $color_black;
+        display: inline-block;
+        margin: 12.5px auto;
+        border-width: 0vmin;
+         :hover {
+            background-color: $color_while5;
+        }
+    }
+}
+
+.body_item {
+    .item_img> {
+        img {
+            border-radius: 10px 10px 0px 0px;
+            width: 100%;
+        }
+    }
+    .item_about {
+        .item_name {
+            text-transform: uppercase;
+            margin-top: 12px;
+            overflow: hidden;
+        }
+        .item_description {
+            @include font(18px, none, 27px);
+            margin: 13px 8px 17px 13px;
+            text-align: left;
+            color: $color_darkblue;
+        }
+        .name_item {
+            @include font(12px, none, 27px);
+            margin-left: 13px;
+            color: $color_greyish;
+        }
+    }
+    .status {
+        overflow: hidden;
+        display: flex;
+        border-color: $color_while4;
+        border-width: 1px;
+    }
+    .status_item {
+        float: left;
+        margin: auto;
+        border: none;
+    }
+}
+
+.item_name> {
+    p {
+        @include font(12px, 700, 27px);
+        float: left;
+        padding-left: 13px;
+        color: $color_grey;
+    }
+}
+
+.item_name {
+    .about_icon {
+        padding: 5px 10px;
+        color: $color_blue;
+        font-size: 14px;
+    }
+    .more {
+        float: right;
+        padding: 4px 5px auto auto;
+        font-size: 12px;
+        color: $color_whitegray;
+    }
+}
+
+.status {
+    .date> {
+        p {
+            @include font(14px, none, 23px);
+            padding: auto 55px auto 13px;
+            color: $color_greyish;
+        }
+    }
+    i {
+        font-size: 14px;
+        color: $color_greyish;
+    }
+    span {
+        @include font(14px, none, 27px);
+        color: $color_greyish;
+        margin-right: 10px;
+    }
+}

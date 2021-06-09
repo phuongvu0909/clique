@@ -1,0 +1,91 @@
+@media only screen and (max-width: 480px) {
+    .section_header .logo {
+        margin: 20px auto 45px auto;
+    }
+    .section_body #login {
+        width: 90%;
+    }
+    #login>h2 {
+        padding-top: 30px;
+        margin-bottom: 0px;
+    }
+    .section_footer .footer_content {
+        margin-top: 37px;
+        margin-bottom: 42px;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .section_header .logo {
+        margin: 25px auto 65px auto;
+    }
+    .section_body #login {
+        width: 90%;
+    }
+    #login>h2 {
+        padding-top: 30px;
+        margin-bottom: 0px;
+    }
+    .section_footer .footer_content {
+        margin-top: 42px;
+        margin-bottom: 47px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .section_header .logo {
+        margin: 40px auto 85px auto;
+    }
+    .section_body #login {
+        width: 90%;
+    }
+    #login>h2 {
+        padding-top: 60px;
+        margin-bottom: 44px;
+    }
+    #login .login_item {
+        margin: 20px auto;
+        height: 65px;
+    }
+    #login .login_button {
+        height: 50px;
+        margin-bottom: 16px;
+    }
+    #login .more {
+        width: 25%;
+        margin-left: 40%;
+    }
+    .section_footer .footer_content {
+        margin-top: 63px;
+        margin-bottom: 67px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+    .section_header .logo {
+        margin: 55px auto 105px auto;
+    }
+    .section_body #login {
+        width: 43.333%;
+    }
+    #login>h2 {
+        padding-top: 60px;
+        margin-bottom: 44px;
+    }
+    #login .login_item {
+        margin: 20px auto;
+        height: 65px;
+    }
+    #login .login_button {
+        height: 50px;
+        margin-bottom: 16px;
+    }
+    #login .more {
+        width: 40%;
+        margin-left: 33.333%;
+    }
+    .section_footer .footer_content {
+        margin-top: 63px;
+        margin-bottom: 67px;
+    }
+}

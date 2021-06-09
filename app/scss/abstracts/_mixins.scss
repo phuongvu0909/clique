@@ -1,0 +1,28 @@
+    // Scss mixins
+    @mixin style($bg) {
+        background: $bg;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: $bg_height;
+    }
+    
+    @mixin header-style {
+        display: $display_header;
+    }
+    
+    @mixin border_style($border-style, $borber-radius, $border-color) {
+        border-style: $border-style;
+        border-radius: $borber-radius;
+        border-color: $border-color;
+    }
+    
+    @mixin font($size, $weight, $line-height) {
+        font-size: $size;
+        font-weight: $weight;
+        line-height: $line-height;
+    }
+    
+    @mixin padVsMg ($padding, $margin) {
+        padding: $padding;
+        margin: $margin;
+    }
