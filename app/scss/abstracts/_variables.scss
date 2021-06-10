@@ -1,5 +1,7 @@
 // Scss variables (colours etc...)
+// Variables img
 $background: url("/app/images/background.png");
+// Variables color
 $color_white1:#F5F5F5;
 $color_white0: #fff;
 $color_white2:#F4F4F4;
@@ -22,3 +24,8 @@ $color_lightblue:#3CA6CC;
 $color_mediumblue:#264F88;
 $color_darkblue: #203442;
 $color_lightgreen: #2F9A4C;
+// Variable Breakpoints
+$res_480: "only screen and (max-width: 480px)";
+$res_768: "only screen and (min-width: 480px) and (max-width: 768px)";
+$res_992: "only screen and (min-width: 768px) and (max-width: 992px)";
+$res_1280: "only screen and (min-width: 992px) and (max-width: 1280px)";

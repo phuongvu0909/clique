@@ -32,3 +32,26 @@
         padding: $padding;
         margin: $margin;
     }
+    
+    @mixin breakpoint($point) {
+        @if $point==res_480 {
+            @media #{$res_480} {
+                @content ;
+            }
+        }
+        @else if $point==res_768 {
+            @media #{$res_768} {
+                @content ;
+            }
+        }
+        @else if $point==res_992 {
+            @media #{$res_992} {
+                @content ;
+            }
+        }
+        @else if $point==res_1280 {
+            @media #{$res_1280} {
+                @content ;
+            }
+        }
+    }

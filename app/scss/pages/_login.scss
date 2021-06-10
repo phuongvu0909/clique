@@ -1,7 +1,6 @@
 #login_page {
     @include bg_style($background);
     font-family: $font_familly;
-    height: 100vh;
 }
 
 .login_header {
@@ -93,5 +92,119 @@
         @include font(16px, none, 20px);
         margin: 52px auto 49px auto;
         color: $color_whitegray2;
+    }
+}
+
+// responsive
+@include breakpoint(res_480) {
+    .login_header {
+        .logo {
+            margin: 20px auto 45px auto;
+        }
+    }
+    .login_body {
+        #login {
+            width: 90%;
+            h2 {
+                padding-top: 30px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .login_footer {
+        .footer_content {
+            margin: 37px auto 42px auto;
+        }
+    }
+}
+
+@include breakpoint(res_768) {
+    .login_header {
+        .logo {
+            margin: 25px auto 65px auto;
+        }
+    }
+    .login_body {
+        #login {
+            width: 90%;
+            h2 {
+                padding-top: 30px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .login_footer {
+        .footer_content {
+            margin-top: 42px;
+            margin-bottom: 47px;
+        }
+    }
+}
+
+@include breakpoint (res_992) {
+    .login_header {
+        .logo {
+            margin: 40px auto 85px auto;
+        }
+    }
+    .login_body {
+        #login {
+            width: 90%;
+            h2 {
+                padding-top: 60px;
+                margin-bottom: 44px;
+            }
+            .login_item {
+                margin: 20px auto;
+                height: 65px;
+            }
+            .login_button {
+                height: 50px;
+                margin-bottom: 16px;
+            }
+            .more {
+                width: 25%;
+                margin-left: 40%;
+            }
+        }
+    }
+    .login_footer {
+        .footer_content {
+            margin: 63px auto 67px auto;
+        }
+    }
+}
+
+@include breakpoint(res_1280) {
+    .login_header {
+        .logo {
+            margin: 55px auto 105px auto;
+        }
+    }
+    .login_body {
+        #login {
+            width: 43.333%;
+            h2 {
+                padding-top: 60px;
+                margin-bottom: 44px;
+            }
+            .login_item {
+                margin: 20px auto;
+                height: 65px;
+            }
+            .login_button {
+                margin-bottom: 16px;
+                height: 50px;
+            }
+            .more {
+                width: 40%;
+                margin-left: 33.333%;
+            }
+        }
+    }
+    .login_button {
+        .footer_content {
+            margin: 63px auto 67px auto;
+        }
     }
 }

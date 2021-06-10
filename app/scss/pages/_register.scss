@@ -96,3 +96,149 @@
         margin: auto;
     }
 }
+
+// responsives
+@include breakpoint (res_480) {
+    #register {
+        width: 85%;
+        padding: 20px 30px;
+        line-height: 22px;
+        h2 {
+            font-size: 31px;
+        }
+        .register_list {
+            margin: auto -15px;
+        }
+        .register_item {
+            width: 100%;
+        }
+        .register_content {
+            width: 85%;
+        }
+        .description {
+            margin: auto -15px;
+        }
+    }
+    #capcha_logo> {
+        right: -5%;
+        bottom: 2%;
+        img {
+            width: 50%;
+        }
+    }
+}
+
+@include breakpoint(res_768) {
+    #register {
+        width: 85%;
+        padding: 20px 30px;
+        line-height: 22px;
+        h2 {
+            font-size: 31px;
+            margin-left: 8%;
+        }
+        .register_list {
+            width: 90%;
+            margin: auto;
+        }
+        .register_item {
+            width: 100%;
+            margin: 10px;
+        }
+        .register_content {
+            width: 85%;
+        }
+        .description {
+            width: 90%;
+            margin: auto;
+            // margin-top: 10px;
+            // margin-left: 20px;
+        }
+        .register_button {
+            width: 90%;
+            margin: auto;
+        }
+    }
+    #capcha_logo> {
+        right: -2%;
+        bottom: 2%;
+        img {
+            width: 60%;
+        }
+    }
+}
+
+@include breakpoint(res_992) {
+    #register {
+        width: 85%;
+        padding: 20px 30px;
+        line-height: 22px;
+        h2 {
+            font-size: 33px;
+            margin-left: 10%;
+        }
+        .register_list {
+            width: 95%;
+            margin: auto;
+        }
+        .register_item {
+            width: 100%;
+            margin: 10px;
+        }
+        .register_content {
+            width: 85%;
+        }
+        .description {
+            width: 95%;
+            margin: auto;
+            // margin-top: 10px;
+        }
+        .register_button {
+            width: 95%;
+            margin: auto;
+        }
+    }
+    #capcha_logo> {
+        right: 3%;
+        img {
+            width: 70%;
+        }
+    }
+}
+
+@include breakpoint(res_1280) {
+    #register {
+        width: 85%;
+        padding: 20px 30px;
+        line-height: 22px;
+        h2 {
+            font-size: 35px;
+            margin-left: 15%;
+        }
+        .register_list {
+            width: 75%;
+            margin: auto;
+        }
+        .register_item {
+            width: 100%;
+            margin: 15px;
+        }
+        .register_content {
+            width: 85%;
+        }
+        .description {
+            width: 75%;
+            margin: 10px auto auto auto;
+        }
+        .register_button {
+            width: 75%;
+            margin: auto;
+        }
+    }
+    #capcha_logo> {
+        right: 7%;
+        img {
+            width: 75%;
+        }
+    }
+}

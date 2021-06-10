@@ -182,3 +182,126 @@
         margin-right: 10px;
     }
 }
+
+// responsive
+@include breakpoint(res_480) {
+    .home_header {
+        .heading {
+            display: block;
+            .search {
+                display: none;
+            }
+            .logo_img {
+                display: flex;
+                width: 100%;
+            }
+            .funtion_header {
+                width: 100%;
+            }
+        }
+    }
+    .logo_img> {
+        img {
+            margin: auto;
+        }
+    }
+    .home_nav {
+        ul {
+            display: block;
+            margin-left: 0px;
+        }
+        li {
+            width: 50%;
+        }
+        a {
+            padding: 10px;
+        }
+    }
+    .home_body {
+        column-count: 1;
+        .body_item {
+            width: 100%;
+        }
+    }
+}
+
+@include breakpoint(res_768) {
+    .home_header {
+        .heading {
+            display: block;
+            .search {
+                display: none;
+            }
+            .logo_img {
+                display: flex;
+                width: 100%;
+            }
+        }
+    }
+    .logo_img> {
+        img {
+            margin: auto;
+        }
+    }
+    .home_nav {
+        ul {
+            display: block;
+            margin-left: 0px;
+        }
+        li {
+            width: 20%;
+        }
+        a {
+            padding: 10px;
+        }
+    }
+    .home_body {
+        column-count: 2;
+        margin-top: 10px;
+        .body_item {
+            width: 100%;
+        }
+    }
+}
+
+@include breakpoint(res_992) {
+    .funtion_header {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 15px;
+    }
+    .home_nav {
+        ul {
+            display: block;
+            margin-left: 10%;
+        }
+        li {
+            width: 10%;
+        }
+        a {
+            padding: 10px;
+        }
+    }
+    .home_body {
+        column-count: 3;
+        margin-top: 15px;
+    }
+}
+
+@include breakpoint($res_1280) {
+    .home_nav {
+        ul {
+            display: block;
+        }
+        li {
+            width: 10%;
+        }
+        a {
+            padding: 10px;
+        }
+    }
+    .section_body {
+        column-count: 3;
+        margin-top: 20px;
+    }
+}
