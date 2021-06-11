@@ -28,29 +28,10 @@
         padding-top: 55px;
         color: $color_white0;
     }
-    .login_list {
-        display: block;
-    }
-    .login_item {
-        @include border_style(none, 3px, $color_gray44);
-        margin: 13px auto;
-        background-color: $color_white0;
-        color: $color_black;
-        width: 80%;
-        height: 60px;
-    }
-    .item_input {
-        @include font(16px, none, 20px);
-        border: none;
-        width: 100%;
-        height: auto;
-        padding-left: 21px;
-        margin-bottom: 23px;
-    }
     .login_button {
         @include border_style(none, 3px, none);
         @include font(16px, none, 27px);
-        margin: auto auto 11px 10%;
+        margin: 10px auto 11px 10%;
         width: 80%;
         height: 45px;
         color: $color_white0;
@@ -72,11 +53,43 @@
     }
     .more {
         padding-bottom: 34px;
+        margin-top: 23px;
         margin-left: 30%;
         width: 165px;
     }
     .logo_button {
         flex: 1;
+    }
+}
+
+#login_form {
+    .login_item {
+        display: block;
+        @include border_style(none, 3px, $color_gray44);
+        margin: 7px auto;
+        padding-top: 7px;
+        background-color: $color_white0;
+        color: $color_black;
+        width: 80%;
+        height: auto;
+        label {
+            padding-left: 21px;
+        }
+    }
+    .item_input {
+        @include font(16px, none, 30px);
+        border: none;
+        width: 100%;
+        height: auto;
+        padding-left: 21px;
+        outline: none;
+    }
+    .text {
+        display: block;
+        padding: 5px;
+        margin: auto;
+        font-weight: 300;
+        width: 80%;
     }
 }
 
