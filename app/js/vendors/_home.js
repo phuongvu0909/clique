@@ -93,3 +93,15 @@ function loadData(dataUrl) {
 
 }
 loadData(dataUrl);
+
+function scrollBar(dataUrl) {
+    window.addEventListener("scroll", () => {
+
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const scrolled = window.scrollY;
+        if (Math.ceil(scrolled) == scrollable && scrolled < 6635) {
+            loadData(dataUrl);
+        }
+    })
+}
+scrollBar(dataUrl);
