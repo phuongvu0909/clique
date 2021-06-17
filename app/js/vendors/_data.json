@@ -4,8 +4,8 @@
          "description": "Elton John tops rock earnings list",
          "kind": "News",
          "postedTime": "16 days ago",
-         "totalFavorites": 21,
-         "totalCmt": 100
+         "totalCmt": 100,
+         "totalFavorites": 21
      },
      {
          "imgUrl": "../app/images/home/Mask Group 277.png",
@@ -13,8 +13,8 @@
          "description": "Origin series and women's game in November",
          "kind": "Results",
          "postedTime": "10 days ago",
-         "totalFavorites": 21,
-         "totalCmt": 100
+         "totalCmt": 1009,
+         "totalFavorites": 212
      },
      {
          "imgUrl": "../app/images/home/Mask Group 240.png",
@@ -22,8 +22,8 @@
          "description": "Former Raven Chris Wormley realizing 'dream' with Steelers",
          "kind": "News",
          "postedTime": "2 days ago",
-         "totalFavorites": 1,
-         "totalCmt": 300
+         "totalCmt": 10,
+         "totalFavorites": 2
      },
      {
          "imgUrl": "../app/images/home/Mask Group 244.png",
@@ -32,8 +32,8 @@
          "description": "Controversy mars EPL return as Sheffield, Aston Villa draw",
          "kind": "Results",
          "postedTime": "14 days ago",
-         "totalFavorites": 13,
-         "totalCmt": 300
+         "totalCmt": 300,
+         "totalFavorites": 1
      },
      {
 
@@ -42,8 +42,8 @@
          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
          "kind": "Status",
          "postedTime": "3 days ago",
-         "totalFavorites": 13,
-         "totalCmt": 300
+         "totalCmt": 99,
+         "totalFavorites": 21
      },
      {
          "imgUrl": "../app/images/home/Mask Group 245.png",
@@ -51,8 +51,8 @@
          "description": "Injuries, red cards and a $640k-a-week problem: How Arsenal got even worse after lockdown",
          "kind": "News",
          "postedTime": "8 days ago",
-         "totalFavorites": 50,
-         "totalCmt": 300
+         "totalCmt": 20,
+         "totalFavorites": 21
      },
      {
          "imgUrl": "../app/images/home/Mask Group 241.png",
@@ -60,8 +60,8 @@
          "description": "Eric Garcia taken off on a stretcher after sickening collision in Manchester City’s win over Arsenal",
          "kind": "Poll",
          "postedTime": "3 days ago",
-         "totalFavorites": 50,
-         "totalCmt": 300
+         "totalCmt": 199,
+         "totalFavorites": 2
      },
      {
          "imgUrl": "../app/images/home/Mask Group 246.png",
@@ -69,8 +69,8 @@
          "description": "10 incredible facts we learnt about Queen from the music special",
          "kind": "News",
          "postedTime": "9 days ago",
-         "totalFavorites": 100,
-         "totalCmt": 300
+         "totalCmt": 50,
+         "totalFavorites": 10
      },
      {
          "imgUrl": "../app/images/home/Mask Group 242.png",
@@ -78,8 +78,8 @@
          "description": "Steelers to Close Facility in Observance of Juneteenth",
          "kind": "Photo",
          "postedTime": "16 days ago",
-         "totalFavorites": 100,
-         "totalCmt": 50
+         "totalCmt": 70,
+         "totalFavorites": 2
      },
      {
          "imgUrl": "../app/images/home/Mask Group 247.png",
@@ -88,8 +88,8 @@
          "event": "2 Jun 2020 9:00 Center Park",
          "kind": "Event",
          "postedTime": "5 days ago",
-         "totalFavorites": 100,
-         "totalCmt": 50
+         "totalCmt": 2000,
+         "totalFavorites": 1099
      },
      {
          "imgUrl": "../app/images/home/G7-Vacsin.png",
@@ -97,8 +97,8 @@
          "description": "G-7 leaders commit to donating 1 billion doses of coronavirus vaccines as summit begins",
          "kind": "News",
          "postedTime": "1 days ago",
-         "totalFavorites": 100,
-         "totalCmt": 50
+         "totalCmt": 100,
+         "totalFavorites": 2130
      },
      {
          "imgUrl": "../app/images/home/sontung.png",
@@ -106,8 +106,8 @@
          "description": "The song was written and performed by the singer, with a collaboration with American rapper Snoop Dogg",
          "kind": "Music",
          "postedTime": "30 days ago",
-         "totalFavorites": 3000,
-         "totalCmt": 50
+         "totalCmt": 100,
+         "totalFavorites": 1990
      },
      {
          "imgUrl": "../app/images/home/VN - INDO.png",
@@ -116,8 +116,8 @@
          "description": "Vietnam team 'destroy' Indonesia",
          "kind": "Results",
          "postedTime": "5 days ago",
-         "totalFavorites": 3000,
-         "totalCmt": 50
+         "totalCmt": 250,
+         "totalFavorites": 290
      },
      {
          "imgUrl": "../app/images/home/BTS.png",
@@ -125,8 +125,8 @@
          "description": "BTS is the first Korean group to win the number one spot on the Billboard Hot 100",
          "kind": "News",
          "postedTime": "20 days ago",
-         "totalFavorites": 240,
-         "totalCmt": 50
+         "totalCmt": 10,
+         "totalFavorites": 212
      },
      {
          "imgUrl": "../app/images/home/bigbang.png",
@@ -134,8 +134,8 @@
          "description": "G-Dragon revealed that Big Bang is coming back after nearly 5 years of 'freezing' activities?",
          "kind": "News",
          "postedTime": "20 days ago",
-         "totalFavorites": 3000,
-         "totalCmt": 50
+         "totalCmt": 4000,
+         "totalFavorites": 5
      },
      {
          "imgUrl": "../app/images/home/gettyimages.png",
@@ -143,8 +143,8 @@
          "description": "Man Utd transfer target Ben White has admitted that he idolized Rio Ferdinand since childhood.",
          "kind": "News",
          "postedTime": "10 days ago",
-         "totalFavorites": 3000,
-         "totalCmt": 50
+         "totalCmt": 905,
+         "totalFavorites": 123
      },
      {
          "imgUrl": "../app/images/home/chillies.png",
@@ -152,8 +152,8 @@
          "description": "Chillies Band - A special spicy spice, unmistakable in the Vietnamese indie world",
          "kind": "News",
          "postedTime": "2 days ago",
-         "totalFavorites": 3000,
-         "totalCmt": 500
+         "totalCmt": 10,
+         "totalFavorites": 1900
      },
      {
          "imgUrl": "../app/images/home/Phil-Mickelson.png",
@@ -161,8 +161,8 @@
          "description": "Historical victory, Phil Mickelson won the PGA at the age of 50",
          "kind": "Results",
          "postedTime": "2 days ago",
-         "totalFavorites": 199,
-         "totalCmt": 500
+         "totalCmt": 460,
+         "totalFavorites": 1200
      },
      {
          "imgUrl": "../app/images/home/taylor_swift.png",
@@ -170,8 +170,8 @@
          "description": "Taylor Swift suddenly released 9th album",
          "kind": "Music",
          "postedTime": "1 day ago",
-         "totalFavorites": 199,
-         "totalCmt": 500
+         "totalCmt": 10,
+         "totalFavorites": 91
      },
      {
          "imgUrl": "../app/images/home/ngobaochau.png",
@@ -179,7 +179,7 @@
          "description": "Professor Ngo Bao Chau won the Fields Prize in mathematics",
          "kind": "News",
          "postedTime": "30 days ago",
-         "totalFavorites": 320,
-         "totalCmt": 500
+         "totalCmt": 902,
+         "totalFavorites": 1300
      }
  ]

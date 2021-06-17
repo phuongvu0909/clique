@@ -82,6 +82,9 @@
         padding: 25px 35px;
         color: $color-grey;
     }
+    a:hover {
+        color: $color_black;
+    }
 }
 
 .home_body {
@@ -171,6 +174,10 @@
             padding: auto 55px auto 13px;
             color: $color_greyish;
         }
+    }
+    button {
+        outline: none;
+        background-color: $color_white3;
     }
     i {
         font-size: 14px;

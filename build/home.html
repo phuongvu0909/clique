@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../build/assets/css/styles.min.css">
     <script src="https://kit.fontawesome.com/cc4744b5c5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./responsive/home_responsive.css">
+    <script src="../app/js/vendors/_home.js"></script>
 
     <title>Clique</title>
 </head>
@@ -47,7 +47,7 @@
 
     <div class="home_nav">
         <ul>
-            <li><a href="#Schedule">Schedule</a></li>
+            <li class="active"><a href="#Schedule">Schedule</a></li>
             <li><a href="#Results">Results</a></li>
             <li><a href="#Music">Music</a></li>
             <li><a href="#News">News</a></li>
@@ -60,354 +60,212 @@
 
     </div>
 
-
     <div class="home_body">
-        <div class="body_item">
+        <!-- 
+        <div class="body_item" id="Music">
             <div class="item_img">
-                <img src="./images/home/Mask Group 277.png" alt="ELTON JOHN">
-            </div>
+
+                <img src="../app/images/home/taylor_swift.png"></div>
             <div class="item_about">
                 <div class="item_name">
-                    <p class="name">ELTON JOHN</p>
-                    <i class="about_icon fas fa-check-circle"></i>
+                    <i class="about_icon fas fa-check-circle" aria-hidden="true"></i>
                     <a class="more" href="#more">
-                        <i class=" more fas fa-ellipsis-h"></i>
+                        <i class=" more fas fa-ellipsis-h" aria-hidden="true"></i>
                     </a>
 
+                    <p>TAYLOR SWIFT</p </div>
+                    <div class="description">
+                        <span></span>
+                        <p>Taylor Swift suddenly released 9th album</p><span style="font-size: 12px; line-height: 27px;"></span></div>
+                    <div class="name_item">Music</div>
                 </div>
-                <div class="description">
-                    <p>Elton John tops rock earnings list</p>
-                </div>
-
-                <div class="name_item">News</div>
             </div>
             <div class="status">
                 <div class="status_item date">
-                    <p>16 days ago</p>
+                    <p>1 day ago</p>
                 </div>
-                <button class="status_item">
-                    <i class="fas fa-comment"></i>
-                </button>
-                <span class="note">21</span>
-                <button class="status_item">
-                    <i class="fas fa-heart"></i>
-                    
-                </button>
-                <span class="note">100</span>
+                <button class="status_item cmts">
+            <i class="fas fa-comment" aria-hidden="true"></i>
+            </button>
+                <span class="note cmts">199</span>
+                <button class="status_item favs">
+            <i class="fas fa-heart" aria-hidden="true"></i>
+            
+            </button>
+                <span class="note favorites">500</span>
             </div>
         </div>
 
-        <div class="body_item">
+        <div class="body_item" id="Poll">
             <div class="item_img">
-                <img src="./images/home/Mask Group 243.png" alt="STATE OF ORGIIN">
-            </div>
+
+                <img src="../app/images/home/Mask Group 241.png"></div>
             <div class="item_about">
                 <div class="item_name">
-                    <p class="name">STATE OF ORGIIN</p>
+                    <i class="about_icon fas fa-check-circle" aria-hidden="true"></i>
                     <a class="more" href="#more">
-                        <i class=" more fas fa-ellipsis-h"></i>
+                        <i class=" more fas fa-ellipsis-h" aria-hidden="true"></i>
                     </a>
+
+                    <p>EPL</p>
                 </div>
                 <div class="description">
-                    <span>1-2</span>
-                    <p>Origin series and women's game in November</p>
-                </div>
-
-                <div class="name_item">Results</div>
-            </div>
-            <div class="status">
-                <div class="status_item date">
-                    <p>16 days ago</p>
-                </div>
-                <button class="status_item">
-                    <i class="fas fa-comment"></i>
-                </button>
-                <span class="note">21</span>
-                <button class="status_item">
-                    <i class="fas fa-heart"></i>
-                    
-                </button>
-                <span class="note">100</span>
-            </div>
-        </div>
-
-        <div class="body_item">
-            <div class="item_img">
-                <img src="./images/home/Mask Group 240.png" alt="PITTSBURGH STEELERS">
-            </div>
-            <div class="item_about">
-                <div class="item_name">
-                    <p class="name">PITTSBURGH STEELERS</p>
-                    <a class="more" href="#more">
-                        <i class=" more fas fa-ellipsis-h"></i>
-                    </a>
-                </div>
-                <div class="description">
-                    <p>Former Raven Chris Wormley realizing 'dream' with Steelers</p>
-                </div>
-
-                <div class="name_item">News</div>
-            </div>
-            <div class="status">
-                <div class="status_item date">
-                    <p>16 days ago</p>
-                </div>
-                <button class="status_item">
-                    <i class="fas fa-comment"></i>
-                </button>
-                <span class="note">21</span>
-                <button class="status_item">
-                    <i class="fas fa-heart"></i>
-                    
-                </button>
-                <span class="note">100</span>
-            </div>
-        </div>
-
-        <div class="body_item">
-            <div class="item_img">
-                <img src="./images/home/Mask Group 244.png" alt="epl">
-            </div>
-            <div class="item_about">
-                <div class="item_name">
-                    <p class="name">epl</p>
-                    <a class="more" href="#more">
-                        <i class=" more fas fa-ellipsis-h"></i>
-                    </a>
-                </div>
-                <div class="description">
-                    <span>1-2</span>
-                    <p>Controversy mars EPL return as Sheffield, Aston Villa draw</p>
-                </div>
-
-                <div class="name_item">News</div>
-            </div>
-            <div class="status">
-                <div class="status_item date">
-                    <p>16 days ago</p>
-                </div>
-                <button class="status_item">
-                    <i class="fas fa-comment"></i>
-                </button>
-                <span class="note">21</span>
-                <button class="status_item">
-                    <i class="fas fa-heart"></i>
-                    
-                </button>
-                <span class="note">100</span>
-            </div>
-        </div>
-
-
-        <div class="body_item">
-            <div class="item_about">
-                <div class="item_name">
-                    <p class="name">LEWIS HAMILTOn</p>
-                    <a class="more" href="#more">
-                        <i class=" more fas fa-ellipsis-h"></i>
-                    </a>
-                </div>
-                <div class="description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-
-                <div class="name_item">Status</div>
-            </div>
-            <div class="status">
-                <div class="status_item date">
-                    <p>16 days ago</p>
-                </div>
-                <button class="status_item">
-                    <i class="fas fa-comment"></i>
-                </button>
-                <span class="note">21</span>
-                <button class="status_item">
-                    <i class="fas fa-heart"></i>
-                    
-                </button>
-                <span class="note">100</span>
-            </div>
-        </div>
-
-        <div class="body_item">
-            <div class="item_img">
-                <img src="./images/home/Mask Group 245.png" alt="epl">
-            </div>
-            <div class="item_about">
-                <div class="item_name">
-                    <p class="name">epl</p>
-                    <a class="more" href="#more">
-                        <i class=" more fas fa-ellipsis-h"></i>
-                    </a>
-                </div>
-                <div class="description">
-                    <p>Injuries, red cards and a $640k-a-week problem: How Arsenal got even worse after lockdown</p>
-                </div>
-
-                <div class="name_item">News</div>
-            </div>
-            <div class="status">
-                <div class="status_item date">
-                    <p>16 days ago</p>
-                </div>
-                <button class="status_item">
-                    <i class="fas fa-comment"></i>
-                </button>
-                <span class="note">21</span>
-                <button class="status_item">
-                    <i class="fas fa-heart"></i>
-                    
-                </button>
-                <span class="note">100</span>
-            </div>
-        </div>
-
-        <div class="body_item">
-            <div class="item_img">
-                <img src="./images/home/Mask Group 241.png" alt="EPL">
-            </div>
-            <div class="item_about">
-                <div class="item_name">
-                    <p class="name">epl</p>
-                    <a class="more" href="#more">
-                        <i class=" more fas fa-ellipsis-h"></i>
-                    </a>
-                </div>
-                <div class="description">
-                    <p>Eric Garcia taken off on a stretcher after sickening collision in Manchester City’s win over Arsenal</p>
-                </div>
-
+                    <span></span>
+                    <p>Eric Garcia taken off on a stretcher after sickening collision in Manchester City’s win over Arsenal</p><span style="font-size: 12px; line-height: 27px;"></span></div>
                 <div class="name_item">Poll</div>
             </div>
             <div class="status">
                 <div class="status_item date">
-                    <p>16 days ago</p>
+                    <p>3 days ago</p>
                 </div>
-                <button class="status_item">
-                    <i class="fas fa-comment"></i>
-                </button>
-                <span class="note">21</span>
-                <button class="status_item">
-                    <i class="fas fa-heart"></i>
-                    
-                </button>
-                <span class="note">100</span>
+                <button class="status_item cmts">
+            <i class="fas fa-comment" aria-hidden="true"></i>
+        </button>
+                <span class="note cmts">50</span>
+                <button class="status_item favs">
+            <i class="fas fa-heart" aria-hidden="true"></i>
+            
+        </button>
+                <span class="note favorites">300</span>
             </div>
         </div>
-
-        <div class="body_item">
+        <div class="body_item" id="Status">
             <div class="item_img">
-                <img src="./images/home/Mask Group 246.png" alt="Queen">
-            </div>
+
+                <img src=""></div>
             <div class="item_about">
                 <div class="item_name">
-                    <p class="name">Queen</p>
+                    <i class="about_icon fas fa-check-circle" aria-hidden="true"></i>
                     <a class="more" href="#more">
-                        <i class=" more fas fa-ellipsis-h"></i>
+                        <i class=" more fas fa-ellipsis-h" aria-hidden="true"></i>
                     </a>
+
+                    <p>LEWIS HAMILTOn</p>
                 </div>
                 <div class="description">
-                    <p>10 incredible facts we learnt about Queen from the music special</p>
-                </div>
-
-                <div class="name_item">News</div>
+                    <span></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><span style="font-size: 12px; line-height: 27px;"></span></div>
+                <div class="name_item">Status</div>
             </div>
             <div class="status">
                 <div class="status_item date">
-                    <p>16 days ago</p>
+                    <p>3 days ago</p>
                 </div>
-                <button class="status_item">
-                    <i class="fas fa-comment"></i>
-                </button>
-                <span class="note">21</span>
-                <button class="status_item">
-                    <i class="fas fa-heart"></i>
-                    
-                </button>
-                <span class="note">100</span>
+                <button class="status_item cmts">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+            </button>
+                <span class="note cmts">13</span>
+                <button class="status_item favs">
+                <i class="fas fa-heart" aria-hidden="true"></i>
+                
+            </button>
+                <span class=" note favorites">300</span>
             </div>
         </div>
-
-        <div class="body_item">
+        <div class="body_item" id="Photo">
             <div class="item_img">
-                <img src="./images/home/Mask Group 242.png" alt="PITTSBURGH STEELERS">
-            </div>
+
+                <img src="../app/images/home/Mask Group 242.png"></div>
             <div class="item_about">
                 <div class="item_name">
-                    <p class="name">PITTSBURGH STEELERS</p>
+                    <i class="about_icon fas fa-check-circle" aria-hidden="true"></i>
                     <a class="more" href="#more">
-                        <i class=" more fas fa-ellipsis-h"></i>
+                        <i class=" more fas fa-ellipsis-h" aria-hidden="true"></i>
                     </a>
+
+                    <p>PITTSBURGH STEELERS</p>
                 </div>
                 <div class="description">
-                    <p>Steelers to Close Facility in Observance of Juneteenth</p>
-                </div>
-
+                    <span></span>
+                    <p>Steelers to Close Facility in Observance of Juneteenth</p><span style="font-size: 12px; line-height: 27px;"></span></div>
                 <div class="name_item">Photo</div>
             </div>
             <div class="status">
                 <div class="status_item date">
                     <p>16 days ago</p>
                 </div>
-                <button class="status_item">
-                    <i class="fas fa-comment"></i>
-                </button>
-                <span class="note">21</span>
-                <button class="status_item">
-                    <i class="fas fa-heart"></i>
-                    
-                </button>
-                <span class="note">100</span>
+                <button class="status_item cmts">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+            </button>
+                <span class="note cmts">100</span>
+                <button class="status_item favs">
+                <i class="fas fa-heart" aria-hidden="true"></i>
+                
+            </button>
+                <span class="note favorites">50</span>
             </div>
         </div>
-
-        <div class="body_item">
+        <div class="body_item" id="Results">
             <div class="item_img">
-                <img src="./images/home/Mask Group 247.png" alt="PITTSBURGH STEELERS">
-            </div>
+                <img src="../app/images/home/Mask Group 244.png"></div>
             <div class="item_about">
                 <div class="item_name">
-                    <p class="name">PITTSBURGH STEELERS</p>
+                    <i class="about_icon fas fa-check-circle" aria-hidden="true"></i>
                     <a class="more" href="#more">
-                        <i class=" more fas fa-ellipsis-h"></i>
+                        <i class=" more fas fa-ellipsis-h" aria-hidden="true"></i>
                     </a>
+
+                    <p>EPL</p>
                 </div>
                 <div class="description">
-                    <p>Josh Harris and David Blitzer are minority owners</p>
-                    <span style="font-size:12px;line-height: 27px;">2 Jun 2020 9:00 Center Park</span>
-                </div>
-
-                <div class="name_item">Event</div>
+                    <span>1-2</span>
+                    <p>Controversy mars EPL return as Sheffield, Aston Villa draw</p><span style="font-size: 12px; line-height: 27px;"></span></div>
+                <div class="name_item">Results</div>
             </div>
             <div class="status">
                 <div class="status_item date">
-                    <p>16 days ago</p>
+                    <p>14 days ago</p>
                 </div>
-                <button class="status_item">
-                    <i class="fas fa-comment"></i>
+                <button class="status_item cmts">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+            </button>
+                <span class="note cmts">13</span>
+                <button class="status_item favs">
+                <i class="fas fa-heart" aria-hidden="true"></i>
+                
+            </button>
+                <span class="note favorites">300</span>
+            </div>
+        </div>
+        <div class="body_item" id="News">
+            <div class="item_img">
+
+                <img src="../app/images/home/Mask Group 245.png"></div>
+            <div class="item_about">
+                <div class="item_name">
+                    <i class="about_icon fas fa-check-circle" aria-hidden="true"></i>
+                    <a class="more" href="#more">
+                        <i class=" more fas fa-ellipsis-h" aria-hidden="true"></i>
+                    </a>
+
+                    <p>EPL</p>
+                </div>
+                <div class="description">
+                    <span></span>
+                    <p>Injuries, red cards and a $640k-a-week problem: How Arsenal got even worse after lockdown</p><span style="font-size: 12px; line-height: 27px;"></span></div>
+                <div class="name_item">News</div>
+            </div>
+            <div class="status">
+                <div class="status_item date">
+                    <p>8 days ago</p>
+                </div>
+                <button class="status_item cmts">
+                <i class="fas fa-comment" aria-hidden="true"></i>
                 </button>
-                <span class="note">21</span>
-                <button class="status_item">
-                    <i class="fas fa-heart"></i>
-                    
+                <span class="note cmts">50</span>
+                <button class="status_item favs">
+                <i class="fas fa-heart" aria-hidden="true"></i>
+                
                 </button>
-                <span class="note">100</span>
+                <span class="note favorites">300</span>
             </div>
         </div>
 
+    </div> -->
 
+        <div class="home_footer">
 
-
-
-
-
-    </div>
-
-
-    <div class="home_footer">
-
-    </div>
-
+        </div>
 </body>
 
 </html>
