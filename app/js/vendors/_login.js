@@ -6,26 +6,19 @@ function login_validation() {
     var pw_text = document.getElementById("pw_text");
     var pattern = /\b[A-Z0-9._%+-]+@(?:[A-Z0-9-]+\.)+[A-Z]{2,6}\b/i;
     if (email.match(pattern)) {
-        // login_form.classList.add("valid");
-        // login_form.classList.remove("invalid");
+
         m_text.innerHTML = "Valid email";
         m_text.style.color = "#00ff00";
     } else {
-        // login_form.classList.remove("valid");
-        // login_form.classList.add("invalid");
         m_text.innerHTML = "Invalid email address format";
         m_text.style.color = "#ff0000";
     }
     if (email == "") {
-        // login_form.classList.remove("valid");
-        // login_form.classList.add("invalid");
         m_text.innerHTML = "";
         m_text.style.color = "#00ff00";
     }
 
-    if (password.length < 8) {
-        // login_form.classList.remove("valid");
-        // login_form.classList.add("invalid");
+    if (password.length < 7) {
 
         pw_text.innerHTML = "Password must have minimum of 8 characters"
         pw_text.style.color = "#ff0000";
@@ -37,5 +30,37 @@ function login_validation() {
     if (password.length == 0) {
         pw_text.innerHTML = "";
     }
+
+}
+const APIUrl = "https://test.cliquefan.com/api/portal/app/login";
+
+function login() {
+    var username = document.getElementById("email").value;
+    var password = document.getElementById('password').value;
+    var user_info = { username: username, password: password };
+
+    fetch(APIUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(user_info)
+        })
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(user_info) {
+
+            if (user_info.hasOwnProperty('error')) {
+                alert("Invalid username or password!");
+            } else {
+
+                localStorage.setItem('user_info', JSON.stringify(user_info));
+                window.location.href = '../app/home.html';
+            }
+
+        })
+        .catch(error => { alert(error) })
+
 
 }

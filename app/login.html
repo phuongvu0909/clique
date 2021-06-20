@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../build/assets/css/styles.min.css">
     <script src="https://kit.fontawesome.com/cc4744b5c5.js" crossorigin="anonymous"></script>
-    <script src="../build/assets/js/app.min.js"></script>
+    <script src="../app/js/vendors/_login.js"></script>
     <title>Clique</title>
 </head>
 
@@ -24,22 +24,23 @@
             <form id="login_form" action="#">
                 <div class="login_item">
                     <label for="email">Email</label>
-                    <input class="item_input" id="email" type="text" name="Email" onkeydown="login_validation()"></input>
+                    <input class="item_input" id="email" type="text" name="email" onkeydown="login_validation()">
                 </div>
                 <span class="text" id="m_text"></span>
                 <div class="login_item">
                     <label for="password">Password</label>
-                    <input class="item_input" id="password" type="password" name="Password" value="" onkeydown="login_validation()"></input>
+                    <input class="item_input" id="password" type="password" name="password" onkeydown="login_validation()">
 
                 </div>
-                <span class="text" id="pw_text"></span>
-                <button class="login_button" id="lg">LOG In</button>
 
-                <a id="forgot_pw" href="#">Forgot Password?</a>
-
-                <hr style="width: 80%; margin-left: 10%; margin-bottom: 24.5px;opacity: 50%;">
 
             </form>
+            <span class="text" id="pw_text"></span>
+            <button class="login_button" id="lg" onclick="login()">LOG In</button>
+
+            <a id="forgot_pw" href="#">Forgot Password?</a>
+
+            <hr style="width: 80%; margin-left: 10%; margin-bottom: 24.5px;opacity: 50%;">
             <button class=" login_button " id="tw_login">
                 <i class="fab fa-twitter"></i>
                 Twitter Log In
