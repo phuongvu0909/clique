@@ -14,10 +14,11 @@ function loadData(dataUrl) {
                 body_item.classList.add("body_item");
                 var item_html = `
                 <div class="item_img">
-
+                    <img src="${data[i].imgUrl}">
                 </div>
                 <div class="item_about">
                     <div class="item_name">
+                        <p>${data[i].name}</p>
                         <i class="about_icon fas fa-check-circle"></i>
                         <a class="more" href="#more">
                             <i class=" more fas fa-ellipsis-h"></i>
@@ -25,74 +26,30 @@ function loadData(dataUrl) {
 
                     </div>
                     <div class="description">
-                        <span></span>   
+                        <span>${data[i].score}</span> 
+                        <p>${data[i].description}</p> 
+                        <span style="font-size = "12px"; line-heigth="27px"">${data[i].event}</span> 
                     </div>
-                    <div class="name_item"></div>
+                    <div class="name_item">${data[i].kind}</div>
                 </div>
                 <div class="status">
                     <div class="status_item date">
+                    <p>${data[i].postedTime}</p>
                     </div>
                     <button class="status_item cmts">
                         <i class="fas fa-comment"></i>
                     </button>
-                    <span class="note cmts"></span>
+                    <span class="note cmts">${data[i].totalCmt}</span>
                     <button class="status_item favs">
                         <i class="fas fa-heart"></i>
 
                     </button>
-                    <span class="note favorites"></span>
+                    <span class="note favorites">${data[i].totalFavorites}</span>
                 </div>
                 `;
                 body_item.insertAdjacentHTML("afterbegin", item_html);
                 home_body.appendChild(body_item);
                 body_item.setAttribute("id", data[i].kind);
-                var item_img = body_item.querySelector(".item_img");
-
-                var img = document.createElement("img");
-                img.src = data[i].imgUrl;
-                item_img.appendChild(img);
-
-                var item_about = body_item.querySelector(".item_about");
-
-                var item_name = item_about.querySelector(".item_name");
-                var p = document.createElement("p");
-                p.textContent = data[i].name;
-                item_name.appendChild(p);
-
-                var des = item_about.querySelector(".description");
-
-                var score = des.querySelector("span");
-                score.textContent = data[i].score;
-
-                var p = document.createElement("p");
-                p.textContent = data[i].description;
-                des.appendChild(p);
-
-                var event = document.createElement("span");
-                event.textContent = data[i].event;
-                event.style.fontSize = "12px";
-                event.style.lineHeight = "27px";
-                des.appendChild(event);
-
-
-
-                var name_item = item_about.querySelector(".name_item");
-                name_item.textContent = data[i].kind;
-
-                var status = body_item.querySelector(".status");
-
-                var date = status.querySelector(".date");
-                var p = document.createElement("p");
-                p.textContent = data[i].postedTime;
-                date.appendChild(p);
-
-                var cmts = status.querySelector("span.cmts");
-                cmts.textContent = data[i].totalCmt;
-
-                var favorites = status.querySelector("span.favorites");
-                favorites.textContent = data[i].totalFavorites;
-
-
             }
 
             //create filter
